@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap Css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap Css-->
+
+</head>
+
+<body class="d-flex flex-column w-100 h-100">
+    <!-- Top Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand">Forum</a>
+            <form class="form-inline">
+                <input class="form-control-lg mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-primary btn-md my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-- Top Nav -->
+
+    <!-- Container Div -->
+    <div class="container mt-3">
+
+        <!-- Breadcrumb Nav-->
+        <nav aria-label="breadcrumb" class="mt-5 pt-5">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="oguz-and-ozgur.html">Board index</a></li>
+                <li class="breadcrumb-item"><a href="oguz-and-ozgur.html">Forum category</a></li>
+                <li class="breadcrumb-item"><a href="oguz-and-ozgur.html">Forum name</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Create new topic</li>
+            </ol>
+        </nav>
+        <!-- Breadcrumb Nav-->
+
+        <!-- H5 Title -->
+        <div class="p-3 mb-2 bg-info text-white">
+            <h5>Create new topic</h5>
+        </div>
+        <!-- H5 Title -->
+
+        <!-- Form -->
+        <form action="/action_page.php">
+            <div class="form-group">
+                <label for="topic">Topic:</label>
+                <input type="text" class="form-control" id="topic" placeholder="Give your topic a title.">
+            </div>
+            <div class="form-group">
+                <label for="comment">Comment:</label>
+                <textarea class="form-control" id="comment" placeholder="Write your comment here" rows="10"></textarea>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" name="remember"> Notify me upon replies.</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Create topic</button>
+            <button type="reset" class="btn btn-danger">Reset</button>
+        </form>
+        <!-- Form -->
+    </div>
+    <!-- Container Div -->
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-3 mt-3">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center">© 2020 Web Company Inc. All rights reserved.
+            <a href="#"> Terms of use and privacy policy </a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+
+
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+</body>
+
+</html>
